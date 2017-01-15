@@ -1,2 +1,49 @@
+$navbar-default-bg: #e6ccff;
+
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo{
+    float: left;
+    font-size: 20px;
+    color: #330066;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+#logo:hover{
+    color: #b366ff;
+}
+.center{
+    text-align: center;
+}
+.jumbotron{
+    background-image: asset-url('sunset-dark-clouds-1.jpg');
+    background-size: cover;
+    background-position: top;
+}
+.jumbotron h1{
+    color: #fff;
+    font-family: montserrat;
+    text-transform: uppercase;
+    padding: 20px;
+}
+.btn-xlarge{
+    background-color: #ff3333;
+    text-transform: uppercase;
+}
+footer{
+    background-color: #f2f2f2;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+footer nav{
+    float: right;
+    font-size: 10px;
+    padding: 10px;
+}
