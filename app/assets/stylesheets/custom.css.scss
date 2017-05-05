@@ -39,15 +39,25 @@ $navbar-default-bg: #e6ccff;
 .description{
     margin-top: 0;
 }
+.article-title{
+    font-weight: bold;
+    font-size: 1.5em;
+}
+.article-body{
+    border-top: 1px solid #eaeaea;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
 footer{
-    background-color: #f2f2f2;
-    position: absolute;
-    bottom: 0;
+    background-color: #f7f7f7;
+    position: fixed;
+    bottom: 0px;
     width: 100%;
-    padding-left: 10%;
-    padding-right: 10%;
-    padding-top: 4%;
-    padding-bottom: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 20px;
+    border-top: 1px solid #eaeaea;
 }
 footer nav{
     float: right;
